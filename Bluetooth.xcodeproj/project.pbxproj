@@ -43,6 +43,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F47F4AD2E45AC00002FD4D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BADDB582C9ACEEE00808FEC /* BluetoothService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F47F4AE2E45AC14002FD4D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7BADDB7E2C9BE08C00808FEC /* BluetoothCell.swift */,
+				7BADDB7F2C9BE08C00808FEC /* BluetoothCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F47F4AF2E45AC22002FD4D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7BADDB542C9ACDBF00808FEC /* MainViewController.swift */,
+				7BADDB552C9ACDBF00808FEC /* MainViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		7BADDB342C9ACD9400808FEC = {
 			isa = PBXGroup;
 			children = (
@@ -62,16 +88,14 @@
 		7BADDB3F2C9ACD9400808FEC /* Bluetooth */ = {
 			isa = PBXGroup;
 			children = (
+				3F47F4AF2E45AC22002FD4D1 /* Controller */,
+				3F47F4AE2E45AC14002FD4D1 /* View */,
+				3F47F4AD2E45AC00002FD4D1 /* Model */,
 				7BADDB402C9ACD9400808FEC /* AppDelegate.swift */,
 				7BADDB422C9ACD9400808FEC /* SceneDelegate.swift */,
 				7BADDB492C9ACD9700808FEC /* Assets.xcassets */,
 				7BADDB4B2C9ACD9700808FEC /* LaunchScreen.storyboard */,
 				7BADDB4E2C9ACD9700808FEC /* Info.plist */,
-				7BADDB542C9ACDBF00808FEC /* MainViewController.swift */,
-				7BADDB552C9ACDBF00808FEC /* MainViewController.xib */,
-				7BADDB582C9ACEEE00808FEC /* BluetoothService.swift */,
-				7BADDB7E2C9BE08C00808FEC /* BluetoothCell.swift */,
-				7BADDB7F2C9BE08C00808FEC /* BluetoothCell.xib */,
 			);
 			path = Bluetooth;
 			sourceTree = "<group>";
